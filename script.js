@@ -32,3 +32,12 @@ for (const station of stations) {
   listItem.textContent = result;
   list.appendChild(listItem);
 }
+
+const lessonEl = document.querySelector(".lesson")
+const checkboxes = lessonEl.querySelectorAll('input[type="checkbox"]')
+
+checkboxes.forEach(checkbox => {
+  if(checkbox.checked) {
+    
+  }
+})
