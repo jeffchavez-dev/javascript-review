@@ -1,20 +1,20 @@
 const list = document.querySelector('.output ul');
-list.innerHTML = '';
-const cities = ['lonDon', 'ManCHESTer', 'BiRmiNGHAM', 'liVERpoOL'];
+// list.innerHTML = '';
+// const cities = ['lonDon', 'ManCHESTer', 'BiRmiNGHAM', 'liVERpoOL'];
 
-for (const city of cities) {
-  // write your code just below here
-  const lowerCase = city.toLowerCase();	
-  const firstLetter = lowerCase[0];
-  const newFirstLetter = lowerCase.replace(lowerCase[0],firstLetter.toUpperCase());	
-  const result = newFirstLetter;
-  const listItem = document.createElement('li');
-  listItem.textContent = result;
-  list.appendChild(listItem);
-}
+// for (const city of cities) {
+//   // write your code just below here
+//   const lowerCase = city.toLowerCase();	
+//   const firstLetter = lowerCase[0];
+//   const newFirstLetter = lowerCase.replace(lowerCase[0],firstLetter.toUpperCase());	
+//   const result = newFirstLetter;
+//   const listItem = document.createElement('li');
+//   listItem.textContent = result;
+//   list.appendChild(listItem);
+// }
 
 
-const list = document.querySelector('.output ul');
+
 list.innerHTML = '';
 const stations = ['MAN675847583748sjt567654;Manchester Piccadilly',
                   'GNF576746573fhdg4737dh4;Greenfield',
