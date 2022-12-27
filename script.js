@@ -34,7 +34,7 @@ const list = document.querySelector('.output ul');
 // }
 
 const allVocabularies = {
-    lessonOne: [
+    "lesson-one": [
       {greek : "ἀγάπη, ἡ", gloss: "love"},
       {greek : "γῆ ἡ" , gloss: "earth, land, ground (geology)"},
       {greek : "ζωή ἡ", gloss: "life (zoo, zoology)"},
@@ -51,7 +51,7 @@ const allVocabularies = {
       {greek : "μέν" , gloss: "on the one hand, indeed"},
       {greek : "ὁ, ἡ, τό" , gloss: "the"}
     ], 
-  lessonTwo: [
+  "lesson-two": [
     {greek :"ἀδελφός, ὁ ", gloss: "brother (and sister) "},
     {greek :"ἄνθρωπος, ὁ ", gloss: "man, human being, husband (anthropology)"},
     {greek :"θεός, ὁ ", gloss: "God (theology)"},
@@ -75,7 +75,7 @@ const iterator = Object.keys(allVocabularies)
 console.log(iterator)
 const lessonEl = document.querySelector(".lesson")
 const isLessonChecked = lessonEl.querySelectorAll('input[type="checkbox"]')
-// TO DO
+// TO DO:
 // 1. User clicked the checkbox
 // 2. Get the value of the checkbox
 // 3. Get the lesson object of vocabulary that matches the value of the checked checkboxes
