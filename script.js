@@ -128,14 +128,14 @@ console.log(troubleshooting())
  * Change this code so it returns `true` when the number is greater than or equal to 10, and false if it is less than 10
  */
 
-// number = Number(prompt("enter a number"));
+number = Number(prompt("enter a number"));
 
-// function numberChecker() {
-// 	if(number <= 10 ) {
-// 		return true;10
-// 	} else {
-// 		return false;
-// 	}
-// }
+function numberChecker() {
+	if(number >= 10 ) {
+		return true;10
+	} else {
+		return false;
+	}
+}
 
-// console.log(numberChecker)
+console.log(numberChecker)
