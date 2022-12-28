@@ -71,8 +71,8 @@ const allVocabularies = {
 }
 // console.log(allVocabularies.Object.keys(1))
 
-const iterator = Object.keys(allVocabularies)
-console.log(iterator)
+const getVocabularyLesson = Object.keys(allVocabularies)
+console.log(getVocabularyLesson)
 const lessonEl = document.querySelector(".lesson")
 const isLessonChecked = lessonEl.querySelectorAll('input[type="checkbox"]')
 // TO DO:
