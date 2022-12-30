@@ -236,7 +236,7 @@ console.log(troubleshooting())
 
 
 
-const list = document.querySelector('.output ul');
+// const list = document.querySelector('.output ul');
 // list.innerHTML = '';
 // const cities = ['lonDon', 'ManCHESTer', 'BiRmiNGHAM', 'liVERpoOL'];
 
