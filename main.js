@@ -68,7 +68,7 @@ console.log(greeting);
 
 // Step 2: 
 
-module.exports = {
+exports = {
 	testGroup: "a",
 	greeting,
 	birthYear,
