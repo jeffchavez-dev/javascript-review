@@ -80,7 +80,7 @@ exports = {
 
 // Step 3: (Be sure to comment out Step 2)
 
-// module.exports = {
+// exports = {
 // 	testGroup: "b",
 // 	greeting,
 // 	birthYear,
