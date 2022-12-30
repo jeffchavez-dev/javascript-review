@@ -154,6 +154,14 @@ console.log(troubleshooting())
  * d = the variable 'a' minus 17
  * e = the sum of the previous four variables
  */
+
+
+const a = "+"
+const b = "*"
+const c = "%"
+const d = "-"
+const e = "+"
+
 if(a === 9) {
 	console.log("'a' is correct!")
 } else {
@@ -188,11 +196,5 @@ if(e === 68) {
 } else {
 	console.log(`'e' is incorrect, got ${e}, expected 68`)
 }
-
-const a = "+"
-const b = "*"
-const c = "%"
-const d = "-"
-const e = "+"
 
 
