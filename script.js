@@ -155,10 +155,10 @@ console.log(troubleshooting())
  * e = the sum of the previous four variables
  */
 
-const a = "?"
-const b = "?"
-const c = "?"
-const d = "?"
-const e = "?"
+const a = "+"
+const b = "*"
+const c = "%"
+const d = "-"
+const e = "+"
 
 module.exports = {a, b, c, d, e}
