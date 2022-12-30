@@ -156,12 +156,11 @@ console.log(troubleshooting())
  */
 
 
-const a = "+"
-const b = "*"
-const c = "%"
-const d = "-"
-const e = "+"
-
+const a = 1 + 8
+const b = 22 * 3
+const c = 5 % 4
+const d = a - 17
+const e = a + b + c + d
 if(a === 9) {
 	console.log("'a' is correct!")
 } else {
