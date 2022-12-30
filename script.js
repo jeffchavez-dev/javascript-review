@@ -122,20 +122,43 @@ function troubleshooting() {
 console.log(troubleshooting())
 
 /**
+ * EXERCISE # 2
  * The code below tells the browser to ask you for a number
  * then if that number is `6`, it returns `true` otherwise it returns `false`
  * 
  * Change this code so it returns `true` when the number is greater than or equal to 10, and false if it is less than 10
  */
 
-number = Number(prompt("enter a number"));
+// number = Number(prompt("enter a number"));
 
-function numberChecker() {
-	if(number >= 10 ) {
-		return true;10
-	} else {
-		return false;
-	}
-}
+// function numberChecker() {
+// 	if(number >= 10 ) {
+// 		return true;10
+// 	} else {
+// 		return false;
+// 	}
+// }
 
-console.log(numberChecker)
+// console.log(numberChecker)
+
+/**
+ * EXERCISE # 3 - Foundations 
+ * Lets do some math!
+ * Some rules first:
+ *   Enter the operations, replacing the `"?"`, make the computer do the work for you. 
+ *   Do not manually enter the answer, for example: "one plus ten" would look like 1+10
+ * 
+ * a = one plus eight
+ * b = 22 times three
+ * c = the *remainder* of 5/4
+ * d = the variable 'a' minus 17
+ * e = the sum of the previous four variables
+ */
+
+const a = "?"
+const b = "?"
+const c = "?"
+const d = "?"
+const e = "?"
+
+module.exports = {a, b, c, d, e}
