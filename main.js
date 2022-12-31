@@ -26,10 +26,6 @@
 	
 	Once you have your version of the code working let's go back over it and edit it to make it easier to read.  After each step, make sure to run the code to make sure the code still works!
 
-
-
-
-
 	Step 3:
 	Add 2 more variables: "fullName" and "age"
 
@@ -64,7 +60,7 @@ console.log(greeting);
 // Edit above this line ==============
 
 
-// Testing your code
+Testing your code
 
 // Step 2: 
 
