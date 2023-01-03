@@ -32,5 +32,8 @@ console.clear()
 //grouping 
 
 books.forEach(book => {
+    console.groupCollapsed(` ${book.name}`)
     console.log(`my favorite book is ${book.name}`)
+    console.log(`my favorite author is ${book.author}`)
+    console.groupEnd(` ${book.name}`)
 })
