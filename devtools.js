@@ -44,9 +44,13 @@ console.count('p')
 //timing
 console.time('fetching data')
 
-fetch('https://api.github.com/users/wesbos')
+fetch('https://api.github.com/users/jeffchavez-dev')
     .then(data => data.json())
     .then(data => {
         console.timeEnd('fetching data')
         console.log(data)
     })
+
+
+// table 
+console.table(books)
