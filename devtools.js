@@ -37,3 +37,6 @@ books.forEach(book => {
     console.log(`my favorite author is ${book.author}`)
     console.groupEnd(` ${book.name}`)
 })
+
+//counting
+console.count('p')
