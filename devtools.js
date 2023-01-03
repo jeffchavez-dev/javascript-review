@@ -1,4 +1,4 @@
-const books = [{ name: 'Knowing Sin', author: 'Mark Jones'}, {name: 'Institutes', author: 'John Calvin'}]
+/* const books = [{ name: 'Knowing Sin', author: 'Mark Jones'}, {name: 'Institutes', author: 'John Calvin'}]
 
 function makeGreen(){
     const p = document.querySelector('p');
@@ -44,7 +44,7 @@ console.count('p')
 //timing
 console.time('fetching data')
 
-fetch('https://api.github.com/users/jeffchavez-dev')
+fetch('https://api.github.com/users/jeffchavezdev')
     .then(data => data.json())
     .then(data => {
         console.timeEnd('fetching data')
@@ -54,3 +54,5 @@ fetch('https://api.github.com/users/jeffchavez-dev')
 
 // table 
 console.table(books)
+
+*/
