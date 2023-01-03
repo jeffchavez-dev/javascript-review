@@ -30,3 +30,7 @@ console.log(PageTransitionEvent)
 console.dir(PageTransitionEvent)
 console.clear()
 //grouping 
+
+books.forEach(book => {
+    console.log(`my favorite book is ${book}'`)
+})
