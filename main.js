@@ -49,43 +49,13 @@ const birthYear = 1948;
 const thisYear = 1965;
 const firstName = "Carlos";
 const lastName = "Stevenson";
+const fullName = 
 
 const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
 
 console.log(greeting);
 
 
-
-
-// Edit above this line ==============
-
-
-Testing your code
-
-// Step 2: 
-
-exports = {
-	testGroup: "a",
-	greeting,
-	birthYear,
-	thisYear,
-	firstName,
-	lastName
-}
-
-
-// Step 3: (Be sure to comment out Step 2)
-
-// exports = {
-// 	testGroup: "b",
-// 	greeting,
-// 	birthYear,
-// 	thisYear,
-// 	firstName,
-// 	lastName,
-// 	fullName,
-// 	age
-// }
 
 
 
