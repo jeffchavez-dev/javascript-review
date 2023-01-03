@@ -26,10 +26,6 @@
 	
 	Once you have your version of the code working let's go back over it and edit it to make it easier to read.  After each step, make sure to run the code to make sure the code still works!
 
-
-
-
-
 	Step 3:
 	Add 2 more variables: "fullName" and "age"
 
@@ -64,7 +60,7 @@ console.log(greeting);
 // Edit above this line ==============
 
 
-// Testing your code
+Testing your code
 
 // Step 2: 
 
@@ -260,13 +256,13 @@ console.log(troubleshooting())
 //                   'SYB4f65hf75f736463;Stalybridge',
 //                   'HUD5767ghtyfyr4536dh45dg45dg3;Huddersfield'];
 
-for (const station of stations) {
-	// write your code just below here
-	const extractLetters = station.slice(0, 3)
-	const findSemiColon = station.indexOf(';');
-	const extractName = station.slice(findSemiColon + 1)
-	const result = `${extractLetters}: ${extractName}`;
-	const listItem = document.createElement('li');
-	listItem.textContent = result;
-	list.appendChild(listItem);
-}
+// for (const station of stations) {
+//   // write your code just below here
+//   const extractLetters = station.slice(0,3)
+//   const findSemiColon = station.indexOf(';');
+//   const extractName = station.slice(findSemiColon + 1)
+//   const result = `${extractLetters}: ${extractName}`;
+//   const listItem = document.createElement('li');
+//   listItem.textContent = result;
+//   list.appendChild(listItem);
+// }
