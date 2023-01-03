@@ -32,5 +32,5 @@ console.clear()
 //grouping 
 
 books.forEach(book => {
-    console.log(`my favorite book is ${book}'`)
+    console.log(`my favorite book is ${book.name}`)
 })
