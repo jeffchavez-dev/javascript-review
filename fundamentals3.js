@@ -56,8 +56,9 @@ const section = document.createElement('div');
 // Add your code here
 function chooseName() {
   const rand = names.map(name => para.textContent = name)
-  
 }
+
+chooseName()
 // Don't edit the code below here!
 
 section.innerHTML = ' ';
