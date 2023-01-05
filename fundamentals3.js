@@ -1,22 +1,22 @@
-function favoriteAnimal(animal) {
-    return animal + " is my favorite animal!"
-  }
+// function favoriteAnimal(animal) {
+//     return animal + " is my favorite animal!"
+//   }
  
-  console.log(favoriteAnimal('bird'))
+//   console.log(favoriteAnimal('bird'))
 
-  function hello(name = 'Jeff') {
-    console.log(`Hello ${name}!`);
-  }
+//   function hello(name = 'Jeff') {
+//     console.log(`Hello ${name}!`);
+//   }
   
-  hello('Ari'); // Hello Ari!
-  hello();      // Hello Chris!
+//   hello('Ari'); // Hello Ari!
+//   hello();      // Hello Chris!
 
-  const originals = [1, 2, 3];
+//   const originals = [1, 2, 3];
 
-const doubled = originals.map((item) => item * 2);
+// const doubled = originals.map((item) => item * 2);
 
-console.log(doubled); // [2, 4, 6]
-console.clear()
+// console.log(doubled); // [2, 4, 6]
+// console.clear()
 
 //Function scope and conflicts
 
@@ -55,7 +55,8 @@ const section = document.createElement('div');
 
 // Add your code here
 function chooseName() {
-
+  const rand = names.map(name => para.textContent = name)
+  
 }
 // Don't edit the code below here!
 
