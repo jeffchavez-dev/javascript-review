@@ -50,9 +50,12 @@ console.clear()
 
 const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
 const para = document.createElement('p');
+const section = document.createElement('div');
 
 // Add your code here
+function chooseName() {
 
+}
 // Don't edit the code below here!
 
 section.innerHTML = ' ';
