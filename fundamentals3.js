@@ -61,6 +61,6 @@ function chooseName() {
 chooseName()
 // Don't edit the code below here!
 
-section.innerHTML = ' ';
+section.innerHTML = 'I am okay ';
 
 section.appendChild(para);
