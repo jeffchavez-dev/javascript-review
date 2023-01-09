@@ -43,26 +43,31 @@ const getVocabularyLessonOne = allVocabularies["lesson-one"]
 console.log(getVocabularyLesson)
 console.log(getVocabularyLessonOne)
 const lessonEl = document.querySelector(".lesson")
-const isLessonChecked = lessonEl.querySelectorAll('input[type="checkbox"]')
+// const lessonChecked = lessonEl.querySelectorAll('input[type="checkbox"]')
+
 // TO DO:
 // 1. User clicked the checkbox
 // 2. Get the value of the checkbox
 // 3. Get the lesson object of vocabulary that matches the value of the checked checkboxes
 // 4. Add the lesson array to the vocabulary array to be reviewed 
 // 5. Create a div and display the selected value
-// isLessonChecked.addEventListener('click', getLesson)
+lessonChecked.addEventListener('click', getLesson)
+
 let vocabularyToReview = [];
 
 function getLesson() {
-  
-  isLessonChecked.forEach(lessonChecked => { //loop through each of the checkboxes
-    if(lessonChecked.checked) {
-      const review = document.createElement("div")
-      review.innerHTML = `${lessonChecked.value}`;
-      review.classList.add('lesson-added');
-      toReview.appendChild(review);
-    }
-  })
+  const lessonChecked = lessonEl.querySelectorAll('input[type="checkbox"]:checked')
+
+  const checkedValues = [...isLessonChecked]
+  // isLessonChecked.forEach(lessonChecked => { //loop through each of the checkboxes
+
+  //   if(lessonChecked.checked) {
+  //     const review = document.createElement("div")
+  //     review.innerHTML = `${lessonChecked.value}`;
+  //     review.classList.add('lesson-added');
+  //     toReview.appendChild(review);
+  //   }
+  // })
 }
 
 
