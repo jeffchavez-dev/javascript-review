@@ -51,14 +51,14 @@ const lessonEl = document.querySelector(".lesson")
 // 3. Get the lesson object of vocabulary that matches the value of the checked checkboxes
 // 4. Add the lesson array to the vocabulary array to be reviewed 
 // 5. Create a div and display the selected value
-lessonChecked.addEventListener('click', getLesson)
+
 
 let vocabularyToReview = [];
 
 function getLesson() {
-  const lessonChecked = lessonEl.querySelectorAll('input[type="checkbox"]:checked')
+  const checkboxes = lessonEl.querySelectorAll('input[type="checkbox"]:checked')
 
-  const checkedValues = [...isLessonChecked]
+  const checkedValues = [...checkboxes].map(checkbox => checked.value)
   // isLessonChecked.forEach(lessonChecked => { //loop through each of the checkboxes
 
   //   if(lessonChecked.checked) {
@@ -71,5 +71,5 @@ function getLesson() {
 }
 
 
-getLesson()
+checkboxes.addEventListener('click', getLesson)
 
