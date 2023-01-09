@@ -52,9 +52,9 @@ const isLessonChecked = lessonEl.querySelectorAll('input[type="checkbox"]')
 // 5. Create a div and display the selected value
 // isLessonChecked.addEventListener('click', getLesson)
 let vocabularyToReview = [];
+
 function getLesson() {
   
-
   isLessonChecked.forEach(lessonChecked => { //loop through each of the checkboxes
     if(lessonChecked.checked) {
       const review = document.createElement("div")
@@ -65,4 +65,6 @@ function getLesson() {
   })
 }
 
+
+getLesson()
 
