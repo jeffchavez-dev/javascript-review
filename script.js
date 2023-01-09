@@ -39,7 +39,9 @@ const allVocabularies = {
 // console.log(allVocabularies.Object.keys(1))
 
 const getVocabularyLesson = Object.keys(allVocabularies)
+const getVocabularyLessonOne = allVocabularies["lesson-one"]
 console.log(getVocabularyLesson)
+console.log(getVocabularyLessonOne)
 const lessonEl = document.querySelector(".lesson")
 const isLessonChecked = lessonEl.querySelectorAll('input[type="checkbox"]')
 // TO DO:
