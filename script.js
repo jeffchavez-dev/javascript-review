@@ -58,7 +58,8 @@ let vocabularyToReview = [];
 function getLesson() {
   const checkboxes = lessonEl.querySelectorAll('input[type="checkbox"]:checked')
 
-  const checkedValues = [...checkboxes].map(checkbox => checked.value)
+  const checkedValues = [...checkboxes].map(checkbox => checkbox.value)
+  alert(checkedValues)
   // isLessonChecked.forEach(lessonChecked => { //loop through each of the checkboxes
 
   //   if(lessonChecked.checked) {
@@ -70,6 +71,7 @@ function getLesson() {
   // })
 }
 
+const review = document.querySelector(".review")
 
-checkboxes.addEventListener('click', getLesson)
+review.addEventListener('click', getLesson)
 
