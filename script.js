@@ -1,7 +1,7 @@
 
 
 const allVocabularies = {
-    "lesson-one": [
+    "lesson-1": [
       {greek : "ἀγάπη, ἡ", gloss: "love"},
       {greek : "γῆ ἡ" , gloss: "earth, land, ground (geology)"},
       {greek : "ζωή ἡ", gloss: "life (zoo, zoology)"},
@@ -18,7 +18,7 @@ const allVocabularies = {
       {greek : "μέν" , gloss: "on the one hand, indeed"},
       {greek : "ὁ, ἡ, τό" , gloss: "the"}
     ], 
-  "lesson-two": [
+  "lesson-2": [
     {greek :"ἀδελφός, ὁ ", gloss: "brother (and sister) "},
     {greek :"ἄνθρωπος, ὁ ", gloss: "man, human being, husband (anthropology)"},
     {greek :"θεός, ὁ ", gloss: "God (theology)"},
@@ -39,9 +39,9 @@ const allVocabularies = {
 // console.log(allVocabularies.Object.keys(1))
 
 const getVocabularyLesson = Object.keys(allVocabularies)
-const getVocabularyLessonOne = allVocabularies["lesson-one"]
+const getVocabularyLessonOne = allVocabularies
 console.table(getVocabularyLesson)
-console.table(getVocabularyLessonOne)
+console.table(getVocabularyLessonOne["lesson-1"][1])
 const lessonEl = document.querySelector(".lesson")
 // const lessonChecked = lessonEl.querySelectorAll('input[type="checkbox"]')
 
@@ -58,7 +58,12 @@ let vocabularyToReview = [];
 function getLesson() {
   const checkboxes = lessonEl.querySelectorAll('input[type="checkbox"]:checked')
 
-  const checkedValues = [...checkboxes].map(checkbox => checkbox.value)
+  const checkedValues = [...checkboxes].map(checkbox => {
+      checkbox.value;
+
+      console.log(getVocabularyLessonOne[`lesson-${checkbox.values}`])
+  })
+       
   alert(checkedValues)
   // isLessonChecked.forEach(lessonChecked => { //loop through each of the checkboxes
 
