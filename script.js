@@ -61,10 +61,10 @@ function getLesson() {
   const checkedValues = [...checkboxes].map(checkbox => {
       checkbox.value;
 
-      console.log(getVocabularyLessonOne[`lesson-${checkbox.values}`])
+      console.log(getVocabularyLessonOne[`lesson-${checkbox.values}`][1])
   })
        
-  alert(checkedValues)
+  // alert(checkedValues)
   // isLessonChecked.forEach(lessonChecked => { //loop through each of the checkboxes
 
   //   if(lessonChecked.checked) {
