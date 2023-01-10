@@ -18,7 +18,7 @@ const allVocabularies = {
       {greek : "μέν" , gloss: "on the one hand, indeed"},
       {greek : "ὁ, ἡ, τό" , gloss: "the"}
     ], 
-  "lesson-2": [
+  "lesson-2" : [
     {greek :"ἀδελφός, ὁ ", gloss: "brother (and sister) "},
     {greek :"ἄνθρωπος, ὁ ", gloss: "man, human being, husband (anthropology)"},
     {greek :"θεός, ὁ ", gloss: "God (theology)"},
@@ -57,11 +57,11 @@ let vocabularyToReview = [];
 
 function getLesson() {
   const checkboxes = lessonEl.querySelectorAll('input[type="checkbox"]:checked')
-
+  const vocabularyToReview = []
   const checkedValues = [...checkboxes].map(checkbox => {
       checkbox.value;
 
-      console.log(getVocabularyLessonOne[`lesson-${checkbox.values}`][1])
+      console.log(getVocabularyLessonOne[`lesson-${checkbox.value}`][1])
   })
        
   // alert(checkedValues)
@@ -79,4 +79,7 @@ function getLesson() {
 const review = document.querySelector(".review")
 
 review.addEventListener('click', getLesson)
+
+
+const list = document.createElement('ul')
 
