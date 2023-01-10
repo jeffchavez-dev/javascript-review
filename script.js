@@ -59,13 +59,16 @@ function getLesson() {
   const checkboxes = lessonEl.querySelectorAll('input[type="checkbox"]:checked')
   const vocabularyToReview = []
   let checkedValues = [...checkboxes].map(checkbox => {
-      checkbox.value;
-
-      console.log(getVocabularyLessonOne[`lesson-${checkbox.value}`][1])
+     return `
+     <li>${checkbox.value}</li> ;
+    `
+      // console.log(getVocabularyLessonOne[`lesson-${checkbox.value}`][1])
   })
 
   const list = document.createElement('ul')
-       
+  list.innerHTML = checkedValues     
+
+  console.log(checkedValues)
   // alert(checkedValues)
   // isLessonChecked.forEach(lessonChecked => { //loop through each of the checkboxes
 
