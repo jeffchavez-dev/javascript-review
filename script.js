@@ -60,7 +60,7 @@ function getLesson() {
   const vocabularyToReview = []
   let checkedValues = [...checkboxes].map(checkbox => {
      return `
-     <li>${checkbox.value}</li> ;
+     <li>lesson-${checkbox.value}</li> ;
     `
       // console.log(getVocabularyLessonOne[`lesson-${checkbox.value}`][1])
   })
