@@ -55,15 +55,16 @@ const section = document.createElement('div');
 
 // Add your code here
 function chooseName() {
-  const rand = names.map(name => para.textContent = name)
-  console.log(Math.floor(Math.random(rand)*10))
-  console.log(para)
+  const rand = Math.floor(Math.random() * names.length)
+  para.textContent = names[rand]
+  
+
 }
 
 chooseName()
 // Don't edit the code below here!
 
-section.innerHTML = 'I am okay ';
+section.innerHTML = '';
 
 section.appendChild(para);
 
