@@ -49,30 +49,30 @@
 
 // For the first task, you have to create a simple function — chooseName() — that prints a random name from the provided array (names) to the provided paragraph (para), and then run it once.
 
-const originalNames = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
-const para = document.createElement('p');
-const section = document.querySelector('.section');
+// const originalNames = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
+// const para = document.createElement('p');
+// const section = document.querySelector('.section');
 
-// Add your code here
-function favoriteName(names = originalNames) {
-    const random = Math.floor(Math.random() * names.length)
-    para.textContent = names[random]
-}
+// // Add your code here
+// function favoriteName(names = originalNames) {
+//     const random = Math.floor(Math.random() * names.length)
+//     para.textContent = names[random]
+// }
 
-const anotherNames = ['Mira', 'Gloryben', 'Olaf', 'Else', 'Anna']
+// const anotherNames = ['Mira', 'Gloryben', 'Olaf', 'Else', 'Anna']
 
-favoriteName(anotherNames)
+// favoriteName(anotherNames)
 
-// Don't edit the code below here!
+// // Don't edit the code below here!
 
-section.innerHTML = '';
+// section.innerHTML = '';
 
-section.appendChild(para);
+// section.appendChild(para);
 
 
-// with default parameter
-function favoriteAnimal(book = 'Knowing sin') {
-    return book + " is my favorite book!"
-  }
+// // with default parameter
+// function favoriteAnimal(book = 'Knowing sin') {
+//     return book + " is my favorite book!"
+//   }
  
-  console.log(favoriteAnimal('Knowing Christ'))
+//   console.log(favoriteAnimal('Knowing Christ'))

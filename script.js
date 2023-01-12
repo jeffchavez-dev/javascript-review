@@ -41,8 +41,10 @@ const allVocabularies = {
 const getVocabularyLesson = Object.keys(allVocabularies)
 const getVocabularyLessonOne = allVocabularies
 console.table(getVocabularyLesson)
-console.table(getVocabularyLessonOne["lesson-1"][1].greek)
+console.table(getVocabularyLessonOne["lesson-1"][1])
+console.table(getVocabularyLessonOne[1])
 const lessonEl = document.querySelector(".lesson")
+
 // const lessonChecked = lessonEl.querySelectorAll('input[type="checkbox"]')
 
 // TO DO:
@@ -55,6 +57,21 @@ const lessonEl = document.querySelector(".lesson")
 
 let vocabularyToReview = [];
 const reviewing = document.querySelector('.reviewing')
+
+function loadLessons() {
+  const lessons = getVocabularyLesson.map(lesson => {
+    `
+    <input type="checkbox" name="lessons" value="${lesson}" id="lesson-one">
+        <label for="lesson-one">Lesson ${lesson}</label>
+    `
+  })
+
+  const lessonList = document.querySelector('.lesson-list')
+  lessonList.innerHTML = lessons
+}
+
+loadLessons()
+
 function getLesson() {
   const checkboxes = lessonEl.querySelectorAll('input[type="checkbox"]:checked')
   const vocabularyToReview = []
