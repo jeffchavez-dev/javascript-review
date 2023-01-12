@@ -51,14 +51,12 @@
 
 const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
 const para = document.createElement('p');
-const section = document.createElement('div');
+const section = document.querySelector('.section');
 
 // Add your code here
 function chooseName() {
   const rand = Math.floor(Math.random() * names.length)
   para.textContent = names[rand]
-  
-
 }
 
 chooseName()
