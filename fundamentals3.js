@@ -49,19 +49,19 @@
 
 // For the first task, you have to create a simple function — chooseName() — that prints a random name from the provided array (names) to the provided paragraph (para), and then run it once.
 
-// const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
+const originalNames = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
 const para = document.createElement('p');
 const section = document.querySelector('.section');
 
 // Add your code here
-function favoriteName(names =  ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']) {
+function favoriteName(names = originalNames) {
     const random = Math.floor(Math.random() * names.length)
     para.textContent = names[random]
 }
 
 const anotherNames = ['Mira', 'Gloryben', 'Olaf', 'Else', 'Anna']
 
-favoriteName()
+favoriteName(anotherNames)
 
 // Don't edit the code below here!
 
