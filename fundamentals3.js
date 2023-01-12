@@ -70,9 +70,7 @@ section.innerHTML = '';
 section.appendChild(para);
 
 
-
-
-
+// with default parameter
 function favoriteAnimal(book = 'Knowing sin') {
     return book + " is my favorite book!"
   }
