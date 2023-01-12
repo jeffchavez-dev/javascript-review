@@ -58,6 +58,9 @@ function favoriteName() {
     const random = Math.floor(Math.random() * names.length)
     para.textContent = names[random]
 }
+
+favoriteName()
+
 // Don't edit the code below here!
 
 section.innerHTML = '';
