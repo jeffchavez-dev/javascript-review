@@ -74,4 +74,4 @@ function favoriteAnimal(book = 'Knowing sin') {
     return book + " is my favorite book!"
   }
  
-  console.log(favoriteAnimal('Goat'))
+  console.log(favoriteAnimal('Knowing Christ'))
