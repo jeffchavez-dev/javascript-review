@@ -49,22 +49,22 @@
 
 // For the first task, you have to create a simple function — chooseName() — that prints a random name from the provided array (names) to the provided paragraph (para), and then run it once.
 
-const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
-const para = document.createElement('p');
-const section = document.querySelector('.section');
+// const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
+// const para = document.createElement('p');
+// const section = document.querySelector('.section');
 
-// Add your code here
-function chooseName() {
-  const rand = Math.floor(Math.random() * names.length)
-  para.textContent = names[rand]
-}
+// // Add your code here
+// function chooseName() {
+//   const rand = Math.floor(Math.random() * names.length)
+//   para.textContent = names[rand]
+// }
 
-chooseName()
-// Don't edit the code below here!
+// chooseName()
+// // Don't edit the code below here!
 
-section.innerHTML = '';
+// section.innerHTML = '';
 
-section.appendChild(para);
+// section.appendChild(para);
 
 
 
