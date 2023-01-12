@@ -54,7 +54,10 @@ const para = document.createElement('p');
 const section = document.querySelector('.section');
 
 // Add your code here
-
+function favoriteName() {
+    const random = Math.floor(Math.random() * names.length)
+    para.textContent = names[random]
+}
 // Don't edit the code below here!
 
 section.innerHTML = '';
