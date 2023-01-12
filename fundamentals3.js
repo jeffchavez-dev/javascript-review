@@ -56,7 +56,8 @@ const section = document.createElement('div');
 // Add your code here
 function chooseName() {
   const rand = names.map(name => para.textContent = name)
-  console.log(rand)
+  console.log(Math.floor(Math.random(rand)*10))
+  console.log(para)
 }
 
 chooseName()
@@ -65,3 +66,13 @@ chooseName()
 section.innerHTML = 'I am okay ';
 
 section.appendChild(para);
+
+
+
+
+
+function favoriteAnimal(animal) {
+    return animal + " is my favorite animal!"
+  }
+ 
+  console.log(favoriteAnimal('Goat'))
