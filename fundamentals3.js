@@ -56,6 +56,7 @@ const section = document.createElement('div');
 // Add your code here
 function chooseName() {
   const rand = names.map(name => para.textContent = name)
+  console.log(rand)
 }
 
 chooseName()
