@@ -70,8 +70,8 @@
 
 
 
-function favoriteAnimal(animal) {
-    return animal + " is my favorite animal!"
+function favoriteAnimal(book = 'Knowing sin') {
+    return book + " is my favorite book!"
   }
  
   console.log(favoriteAnimal('Goat'))
