@@ -45,16 +45,16 @@
 */
 
 // Edit below this line =============
-const birthYear = 1948;
-const thisYear = 1965;
-const firstName = "Carlos";
-const lastName = "Stevenson";
-const fullName = firstName + " " + lastName;
-const age = thisYear - birthYear;
+// const birthYear = 1948;
+// const thisYear = 1965;
+// const firstName = "Carlos";
+// const lastName = "Stevenson";
+// const fullName = firstName + " " + lastName;
+// const age = thisYear - birthYear;
 
-const greeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
+// const greeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
 
-console.log(greeting);
+// console.log(greeting);
 
 
 
@@ -73,22 +73,22 @@ console.log(greeting);
  * Be sure to fix it in the spirit of the code, do not hard code the result.
  */
 
-function troubleshooting() {
-	const a = 1;
-	const b = 1;
+// function troubleshooting() {
+// 	const a = 1;
+// 	const b = 1;
 
-	let result;
+// 	let result;
 
-	// Edit between these lines
-	// =================================
-	result = a + b;
+// 	// Edit between these lines
+// 	// =================================
+// 	result = a + b;
 
-	// =================================
+// 	// =================================
 
-	return result;
-}
+// 	return result;
+// }
 
-console.log(troubleshooting())
+// console.log(troubleshooting())
 
 /**
  * EXERCISE # 2
