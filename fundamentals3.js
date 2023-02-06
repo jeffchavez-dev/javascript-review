@@ -95,7 +95,15 @@
 //   }
 
 
-function checkAge(age) {
+// function checkAge(age) {
+//     if (age > 18) {
+//       return true;
+//     } else {
+//       // ...
+//       return confirm('Did parents allow you?');
+//     }
+//   }
+  function checkAge(age) {
     if (age > 18) {
       return true;
     } else {
@@ -103,3 +111,6 @@ function checkAge(age) {
       return confirm('Did parents allow you?');
     }
   }
+
+
+  checkAge()
