@@ -101,3 +101,10 @@ function checkAge(age) {
       return confirm('Did parents allow you?');
     }
   }
+
+//   Rewrite it, to perform the same, but without if, in a single line.
+
+// Make two variants of checkAge:
+
+// Using a question mark operator ?
+// Using OR ||
